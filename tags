@@ -1,0 +1,419 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADDR_OTHER	scc.h	/^	ADDR_OTHER,				\/\/ 寄存器间接寻址 [EAX],[EBX]$/;"	e	enum:e_AddrForm
+ADDR_REG	scc.h	/^	ADDR_REG = 3			\/\/ 寄存器直接寻址，EAX,EBX等相当于mod=11000000(C0)$/;"	e	enum:e_AddrForm
+ALIGN_SET	scc.h	251;"	d
+BOOL	scc.h	/^typedef int                 BOOL;$/;"	t
+BYTE	scc.h	/^typedef unsigned char       BYTE;$/;"	t
+CH_EOF	scc.h	114;"	d
+CST_FUNC	scc.h	378;"	d
+CST_NOTFUNC	scc.h	379;"	d
+CoffReloc	scc.h	/^typedef struct CoffReloc $/;"	s
+CoffReloc	scc.h	/^} CoffReloc;$/;"	t	typeref:struct:CoffReloc
+CoffSym	scc.h	/^typedef struct CoffSym $/;"	s
+CoffSym	scc.h	/^} CoffSym;$/;"	t	typeref:struct:CoffSym
+DWORD	scc.h	/^typedef unsigned long       DWORD;$/;"	t
+DynArray	scc.h	/^typedef struct DynArray $/;"	s
+DynArray	scc.h	/^} DynArray;$/;"	t	typeref:struct:DynArray
+DynString	scc.h	/^typedef struct DynString $/;"	s
+DynString	scc.h	/^} DynString;$/;"	t	typeref:struct:DynString
+FUNC_PROLOG_SIZE	scc.h	466;"	d
+ImportInfo	scc.h	/^struct ImportInfo $/;"	s
+ImportSym	scc.h	/^struct ImportSym $/;"	s
+KW_ALIGN	scc.h	/^    KW_ALIGN,		\/\/ __align关键字	$/;"	e	enum:e_TokenCode
+KW_BREAK	scc.h	/^    KW_BREAK,		\/\/ break关键字   $/;"	e	enum:e_TokenCode
+KW_CDECL	scc.h	/^    KW_CDECL,		\/\/ __cdecl关键字 standard c call$/;"	e	enum:e_TokenCode
+KW_CHAR	scc.h	/^	KW_CHAR,		\/\/ char关键字$/;"	e	enum:e_TokenCode
+KW_CONTINUE	scc.h	/^	KW_CONTINUE,	\/\/ continue关键字$/;"	e	enum:e_TokenCode
+KW_ELSE	scc.h	/^	KW_ELSE,		\/\/ else关键字$/;"	e	enum:e_TokenCode
+KW_FOR	scc.h	/^	KW_FOR,			\/\/ for关键字$/;"	e	enum:e_TokenCode
+KW_IF	scc.h	/^	KW_IF,			\/\/ if关键字$/;"	e	enum:e_TokenCode
+KW_INT	scc.h	/^	KW_INT,			\/\/ int关键字$/;"	e	enum:e_TokenCode
+KW_RETURN	scc.h	/^    KW_RETURN,		\/\/ return关键字$/;"	e	enum:e_TokenCode
+KW_SHORT	scc.h	/^	KW_SHORT,		\/\/ short关键字$/;"	e	enum:e_TokenCode
+KW_SIZEOF	scc.h	/^    KW_SIZEOF,		\/\/ sizeof关键字$/;"	e	enum:e_TokenCode
+KW_STDCALL	scc.h	/^	KW_STDCALL,     \/\/ __stdcall关键字 pascal c call$/;"	e	enum:e_TokenCode
+KW_STRUCT	scc.h	/^    KW_STRUCT,		\/\/ struct关键字   $/;"	e	enum:e_TokenCode
+KW_VOID	scc.h	/^    KW_VOID,		\/\/ void关键字 $/;"	e	enum:e_TokenCode
+LEVEL_ERROR	scc.h	/^	LEVEL_ERROR,$/;"	e	enum:e_ErrorLevel
+LEVEL_WARNING	scc.h	/^	LEVEL_WARNING,$/;"	e	enum:e_ErrorLevel
+LEX_NORMAL	scc.h	/^	LEX_NORMAL,$/;"	e	enum:e_LexState
+LEX_SEP	scc.h	/^	LEX_SEP$/;"	e	enum:e_LexState
+MAXKEY	scc.h	110;"	d
+Name	scc.h	/^    DWORD Name;					\/\/ 符号名称$/;"	m	struct:CoffSym
+Next	scc.h	/^	DWORD Next;					\/\/ 用于保存冲突链表*\/$/;"	m	struct:CoffSym
+NumberOfAuxSymbols	scc.h	/^    BYTE    NumberOfAuxSymbols;	\/\/ 跟在本记录后面的辅助符号表项的个数$/;"	m	struct:CoffSym
+OPSTACK_SIZE	scc.h	464;"	d
+OUTPUT_EXE	scc.h	/^	OUTPUT_EXE,		\/\/ EXE可执行文件$/;"	e	enum:e_OutType
+OUTPUT_MEMORY	scc.h	/^    OUTPUT_MEMORY	\/\/ 内存中直接运行，不输出$/;"	e	enum:e_OutType
+OUTPUT_OBJ	scc.h	/^    OUTPUT_OBJ,		\/\/ 目标文件$/;"	e	enum:e_OutType
+Operand	scc.h	/^typedef struct Operand$/;"	s
+Operand	scc.h	/^} Operand;$/;"	t	typeref:struct:Operand
+PEInfo	scc.h	/^struct PEInfo $/;"	s
+REG_ANY	scc.h	/^	REG_ANY$/;"	e	enum:e_Register
+REG_EAX	scc.h	/^    REG_EAX = 0,$/;"	e	enum:e_Register
+REG_EBP	scc.h	/^	REG_EBP,$/;"	e	enum:e_Register
+REG_EBX	scc.h	/^	REG_EBX,$/;"	e	enum:e_Register
+REG_ECX	scc.h	/^    REG_ECX,$/;"	e	enum:e_Register
+REG_EDI	scc.h	/^	REG_EDI,$/;"	e	enum:e_Register
+REG_EDX	scc.h	/^    REG_EDX,$/;"	e	enum:e_Register
+REG_ESI	scc.h	/^	REG_ESI,$/;"	e	enum:e_Register
+REG_ESP	scc.h	/^	REG_ESP,$/;"	e	enum:e_Register
+REG_IRET	scc.h	455;"	d
+SC_ANOM	scc.h	/^	SC_ANOM	  = 0x10000000,     \/\/ 匿名符号$/;"	e	enum:e_StorageClass
+SC_CMP	scc.h	/^	SC_CMP    =   0x00f3,       \/\/ 使用标志寄存器$/;"	e	enum:e_StorageClass
+SC_GLOBAL	scc.h	/^	SC_GLOBAL =   0x00f0,		\/\/ 包括：包括整型常量，字符常量、字符串常量,全局变量,函数定义          $/;"	e	enum:e_StorageClass
+SC_LLOCAL	scc.h	/^	SC_LLOCAL =   0x00f2,       \/\/ 寄存器溢出存放栈中$/;"	e	enum:e_StorageClass
+SC_LOCAL	scc.h	/^	SC_LOCAL  =   0x00f1,		\/\/ 栈中变量$/;"	e	enum:e_StorageClass
+SC_LVAL	scc.h	/^	SC_LVAL   =   0x0100,       \/\/ 左值       $/;"	e	enum:e_StorageClass
+SC_MEMBER	scc.h	/^	SC_MEMBER = 0x40000000,     \/\/ 结构成员变量$/;"	e	enum:e_StorageClass
+SC_PARAMS	scc.h	/^	SC_PARAMS = 0x80000000,     \/\/ 函数参数$/;"	e	enum:e_StorageClass
+SC_STRUCT	scc.h	/^	SC_STRUCT = 0x20000000,     \/\/ 结构体符号$/;"	e	enum:e_StorageClass
+SC_SYM	scc.h	/^	SC_SYM    =   0x0200,       \/\/ 符号	$/;"	e	enum:e_StorageClass
+SC_VALMASK	scc.h	/^	SC_VALMASK=   0x00ff,       \/\/ 存储类型掩             $/;"	e	enum:e_StorageClass
+SNTX_DELAY	scc.h	/^	SNTX_DELAY      \/\/ 延迟输出$/;"	e	enum:e_SynTaxState
+SNTX_LF_HT	scc.h	/^	SNTX_LF_HT,		\/\/ 换行并缩进，每一个声明、函数定义、语句结束都要置为此状态$/;"	e	enum:e_SynTaxState
+SNTX_NUL	scc.h	/^	SNTX_NUL,       \/\/ 空状态，没有语法缩进动作$/;"	e	enum:e_SynTaxState
+SNTX_SP	scc.h	/^	SNTX_SP,		\/\/ 空格$/;"	e	enum:e_SynTaxState
+STAGE_COMPILE	scc.h	/^	STAGE_COMPILE,$/;"	e	enum:e_WorkStage
+STAGE_LINK	scc.h	/^	STAGE_LINK,$/;"	e	enum:e_WorkStage
+Section	scc.h	/^    short   Section;			\/\/ 节表的索引(从1开始),用以标识定义此符号的节*\/$/;"	m	struct:CoffSym
+Section	scc.h	/^typedef struct Section $/;"	s
+Section	scc.h	/^} Section;$/;"	t	typeref:struct:Section
+Stack	scc.h	/^typedef struct Stack $/;"	s
+Stack	scc.h	/^} Stack;$/;"	t	typeref:struct:Stack
+StorageClass	scc.h	/^    BYTE    StorageClass;		\/\/ 这是一个表示存储类别的枚举类型值$/;"	m	struct:CoffSym
+Symbol	scc.h	/^typedef struct Symbol $/;"	s
+Symbol	scc.h	/^} Symbol;$/;"	t	typeref:struct:Symbol
+TK_AND	scc.h	/^	TK_AND,         \/\/ & 地址与运算符$/;"	e	enum:e_TokenCode
+TK_ASSIGN	scc.h	/^    TK_ASSIGN,		\/\/ = 赋值运算符 $/;"	e	enum:e_TokenCode
+TK_BEGIN	scc.h	/^	TK_BEGIN,		\/\/ { 左大括号$/;"	e	enum:e_TokenCode
+TK_CCHAR	scc.h	/^    TK_CCHAR,		\/\/ 字符常量$/;"	e	enum:e_TokenCode
+TK_CINT	scc.h	/^    TK_CINT,		\/\/ 整型常量$/;"	e	enum:e_TokenCode
+TK_CLOSEBR	scc.h	/^	TK_CLOSEBR,		\/\/ ] 右圆括号$/;"	e	enum:e_TokenCode
+TK_CLOSEPA	scc.h	/^	TK_CLOSEPA,		\/\/ ) 右圆括号$/;"	e	enum:e_TokenCode
+TK_COMMA	scc.h	/^    TK_COMMA,		\/\/ , 逗号$/;"	e	enum:e_TokenCode
+TK_CSTR	scc.h	/^    TK_CSTR,		\/\/ 字符串常量$/;"	e	enum:e_TokenCode
+TK_DIVIDE	scc.h	/^    TK_DIVIDE,		\/\/ \/ 除号$/;"	e	enum:e_TokenCode
+TK_DOT	scc.h	/^    TK_DOT,			\/\/ . 结构体成员运算符$/;"	e	enum:e_TokenCode
+TK_ELLIPSIS	scc.h	/^	TK_ELLIPSIS,	\/\/ ... 省略号$/;"	e	enum:e_TokenCode
+TK_END	scc.h	/^	TK_END,			\/\/ } 右大括号$/;"	e	enum:e_TokenCode
+TK_EOF	scc.h	/^	TK_EOF,			\/\/ 文件结束符$/;"	e	enum:e_TokenCode
+TK_EQ	scc.h	/^    TK_EQ,			\/\/ == 等于号$/;"	e	enum:e_TokenCode
+TK_GEQ	scc.h	/^    TK_GEQ,			\/\/ >= 大于等于号$/;"	e	enum:e_TokenCode
+TK_GT	scc.h	/^    TK_GT,			\/\/ > 大于号$/;"	e	enum:e_TokenCode
+TK_IDENT	scc.h	/^	TK_IDENT$/;"	e	enum:e_TokenCode
+TK_LEQ	scc.h	/^    TK_LEQ,			\/\/ <= 小于等于号$/;"	e	enum:e_TokenCode
+TK_LT	scc.h	/^    TK_LT,			\/\/ < 小于号$/;"	e	enum:e_TokenCode
+TK_MINUS	scc.h	/^    TK_MINUS,		\/\/ - 减号$/;"	e	enum:e_TokenCode
+TK_MOD	scc.h	/^    TK_MOD,			\/\/ % 求余运算符$/;"	e	enum:e_TokenCode
+TK_NEQ	scc.h	/^    TK_NEQ,			\/\/ != 不等于号$/;"	e	enum:e_TokenCode
+TK_OPENBR	scc.h	/^	TK_OPENBR,		\/\/ [ 左中括号$/;"	e	enum:e_TokenCode
+TK_OPENPA	scc.h	/^	TK_OPENPA,		\/\/ ( 左圆括号$/;"	e	enum:e_TokenCode
+TK_PLUS	scc.h	/^	TK_PLUS,		\/\/ + 加号$/;"	e	enum:e_TokenCode
+TK_POINTSTO	scc.h	/^    TK_POINTSTO,	\/\/ -> 指向结构体成员运算符$/;"	e	enum:e_TokenCode
+TK_SEMICOLON	scc.h	/^    TK_SEMICOLON,	\/\/ ; 分号    $/;"	e	enum:e_TokenCode
+TK_STAR	scc.h	/^    TK_STAR,		\/\/ * 星号$/;"	e	enum:e_TokenCode
+T_ARRAY	scc.h	/^	T_ARRAY  =  0x0010,		\/\/ 数组$/;"	e	enum:e_TypeCode
+T_BTYPE	scc.h	/^	T_BTYPE  =  0x000f,		\/\/ 基本类型掩码          $/;"	e	enum:e_TypeCode
+T_CHAR	scc.h	/^	T_CHAR   =  1,			\/\/ 字符型                 $/;"	e	enum:e_TypeCode
+T_FUNC	scc.h	/^	T_FUNC   =  5,			\/\/ 函数                    $/;"	e	enum:e_TypeCode
+T_INT	scc.h	/^	T_INT    =  0,			\/\/ 整型                     $/;"	e	enum:e_TypeCode
+T_PTR	scc.h	/^	T_PTR    =  4,			\/\/ 指针                          $/;"	e	enum:e_TypeCode
+T_SHORT	scc.h	/^	T_SHORT  =  2,			\/\/ 短整型                       $/;"	e	enum:e_TypeCode
+T_STRUCT	scc.h	/^	T_STRUCT =  6,			\/\/ 结构体 $/;"	e	enum:e_TypeCode
+T_VOID	scc.h	/^	T_VOID   =  3,			\/\/ 空类型                        $/;"	e	enum:e_TypeCode
+TkWord	scc.h	/^typedef struct TkWord$/;"	s
+TkWord	scc.h	/^} TkWord;$/;"	t	typeref:struct:TkWord
+Type	scc.h	/^    WORD    Type;				\/\/ 一个表示类型的数字$/;"	m	struct:CoffSym
+Type	scc.h	/^typedef struct Type $/;"	s
+Type	scc.h	/^} Type;$/;"	t	typeref:struct:Type
+Value	scc.h	/^    DWORD   Value;				\/\/ 与符号相关的值$/;"	m	struct:CoffSym
+WORD	scc.h	/^typedef unsigned short      WORD;$/;"	t
+_entry	Debug/HelloWorld.c	/^void  _entry()$/;"	f
+_entry	Release/HelloWorld.c	/^void  _entry()$/;"	f
+_entry	demo/HelloWorld.c	/^void _entry()$/;"	f
+add_runtime_libs	outpe.c	/^void add_runtime_libs()$/;"	f
+additive_expression	grammar.c	/^void additive_expression()$/;"	f
+allocate_reg	gencode.c	/^int allocate_reg(int rc)$/;"	f
+allocate_storage	gencode.c	/^Section *allocate_storage(Type *type, int r, int has_init, int v, int *addr)$/;"	f
+argument_expression_list	grammar.c	/^void argument_expression_list()$/;"	f
+array_dll	outpe.c	/^DynArray array_dll;$/;"	v
+array_lib	outpe.c	/^DynArray array_lib;$/;"	v
+assignment_expression	grammar.c	/^void assignment_expression()$/;"	f
+backpatch	gencode.c	/^void backpatch(int t, int a)$/;"	f
+base	scc.h	/^	void **base;	\/\/ 栈底指针$/;"	m	struct:Stack
+break_statement	grammar.c	/^void break_statement(int *bsym)$/;"	f
+c	scc.h	/^    int c;						\/\/ 符号关联值$/;"	m	struct:Symbol
+calc_align	scc.c	/^int calc_align(int n, int align)$/;"	f
+cancel_lvalue	operand.c	/^void cancel_lvalue()$/;"	f
+capacity	scc.h	/^	int capacity;	\/\/ 包含该字符串的缓冲区长度$/;"	m	struct:DynString
+capacity	scc.h	/^    int capacity;		\/\/ 动态数组缓冲区长度度$/;"	m	struct:DynArray
+cfsym	scc.h	/^    DWORD cfsym;				\/\/ 符号表的索引(从0开始)$/;"	m	struct:CoffReloc
+ch	lex.c	/^char ch;						\/\/ 当前取到的源码字符$/;"	v
+char_pointer_type	symbol.c	/^Type char_pointer_type,		\/\/ 字符串指针				$/;"	v
+check_lvalue	operand.c	/^void check_lvalue()$/;"	f
+cleanup	scc.c	/^void cleanup()$/;"	f
+coffreloc_add	outcoff.c	/^void coffreloc_add(Section *sec, Symbol *sym, int offset, char type)$/;"	f
+coffreloc_direct_add	outcoff.c	/^void coffreloc_direct_add(int offset, int cfsym, char section, char type)$/;"	f
+coffrelocs_fixup	outpe.c	/^void coffrelocs_fixup()$/;"	f
+coffstr_add	outcoff.c	/^char *coffstr_add(Section *strtab,char* name)$/;"	f
+coffsym_add	outcoff.c	/^int coffsym_add(Section *symtab,char* name, int val, int sec_index,$/;"	f
+coffsym_add_update	outcoff.c	/^void coffsym_add_update(Symbol *s, int val, int sec_index,$/;"	f
+coffsym_search	outcoff.c	/^int coffsym_search(Section *symtab,char *name)$/;"	f
+color_token	lex.c	/^void color_token(int lex_state)$/;"	f
+compile	scc.c	/^void compile(char *fname)$/;"	f
+compound_statement	grammar.c	/^void compound_statement(int *bsym, int *csym)$/;"	f
+continue_statement	grammar.c	/^void continue_statement(int *csym)$/;"	f
+count	scc.h	/^    int count;			\/\/ 动态数组元素个数$/;"	m	struct:DynArray
+count	scc.h	/^    int count;		\/\/ 字符串长度  $/;"	m	struct:DynString
+data	scc.h	/^    char *data;					\/\/ 节数据$/;"	m	struct:Section
+data	scc.h	/^    char *data;		\/\/ 指向字符串的指针$/;"	m	struct:DynString
+data	scc.h	/^    void **data;		\/\/ 指向数据指针数组$/;"	m	struct:DynArray
+data_allocated	scc.h	/^    int data_allocated;			\/\/ 分配内存空间$/;"	m	struct:Section
+data_offset	scc.h	/^	int data_offset;			\/\/ 当前数据偏移位置$/;"	m	struct:Section
+declarator	grammar.c	/^void declarator(Type *type, int *v, int *force_align)$/;"	f
+default_func_type	symbol.c	/^	 default_func_type;		\/\/ 缺省函数类型$/;"	v
+direct_declarator	grammar.c	/^void direct_declarator(Type *type,int *v,int func_call)$/;"	f
+direct_declarator_postfix	grammar.c	/^void direct_declarator_postfix(Type *type,int func_call)$/;"	f
+dll_index	scc.h	/^	int dll_index;$/;"	m	struct:ImportInfo
+dos_header	outpe.c	/^IMAGE_DOS_HEADER dos_header = {$/;"	v
+dos_stub	outpe.c	/^BYTE dos_stub[0x40] = {$/;"	v
+dynarray_add	dynarray.c	/^void dynarray_add(DynArray *parr, void *data)$/;"	f
+dynarray_free	dynarray.c	/^void dynarray_free(DynArray *parr)$/;"	f
+dynarray_init	dynarray.c	/^void dynarray_init(DynArray *parr, int initsize)$/;"	f
+dynarray_realloc	dynarray.c	/^void dynarray_realloc(DynArray *parr, int new_size)$/;"	f
+dynarray_search	dynarray.c	/^int dynarray_search(DynArray *parr, int key)$/;"	f
+dynstring_chcat	dynstring.c	/^void dynstring_chcat(DynString *pstr, int ch)$/;"	f
+dynstring_free	dynstring.c	/^void dynstring_free(DynString *pstr)$/;"	f
+dynstring_init	dynstring.c	/^void dynstring_init(DynString *pstr,int initsize)$/;"	f
+dynstring_realloc	dynstring.c	/^void dynstring_realloc(DynString *pstr, int new_size)$/;"	f
+dynstring_reset	dynstring.c	/^void dynstring_reset(DynString *pstr)$/;"	f
+e_AddrForm	scc.h	/^enum e_AddrForm$/;"	g
+e_ErrorLevel	scc.h	/^enum e_ErrorLevel$/;"	g
+e_LexState	scc.h	/^enum e_LexState$/;"	g
+e_OutType	scc.h	/^enum e_OutType$/;"	g
+e_Register	scc.h	/^enum e_Register$/;"	g
+e_StorageClass	scc.h	/^enum e_StorageClass$/;"	g
+e_SynTaxState	scc.h	/^enum e_SynTaxState$/;"	g
+e_TokenCode	scc.h	/^enum e_TokenCode$/;"	g
+e_TypeCode	scc.h	/^enum e_TypeCode$/;"	g
+e_WorkStage	scc.h	/^enum e_WorkStage$/;"	g
+elf_hash	scc.c	/^int elf_hash(char *key)$/;"	f
+entry_addr	scc.h	/^    DWORD entry_addr;$/;"	m	struct:PEInfo
+entry_symbol	outpe.c	/^char *entry_symbol = "_entry";$/;"	v
+equality_expression	grammar.c	/^void equality_expression()$/;"	f
+error	error.c	/^void error(char *fmt, ...)$/;"	f
+expect	error.c	/^void expect(char *msg)$/;"	f
+expression	grammar.c	/^void expression()$/;"	f
+expression_statement	grammar.c	/^void expression_statement()$/;"	f
+external_declaration	grammar.c	/^void external_declaration(int l)$/;"	f
+filename	scc.c	/^char *filename;					\/\/ 源文件名称$/;"	v
+filename	scc.h	/^    const char *filename;$/;"	m	struct:PEInfo
+fin	scc.c	/^FILE *fin = NULL;				\/\/ 源文件指针$/;"	v
+for_statement	grammar.c	/^void for_statement(int *bsym, int *csym)$/;"	f
+fpad	outcoff.c	/^void fpad(FILE *fp, int new_pos)$/;"	f
+free_sections	outcoff.c	/^void free_sections()$/;"	f
+func_begin_ind	gencode.c	/^int func_begin_ind;				\/\/ 函数开始指令$/;"	v
+func_ret_sub	gencode.c	/^int func_ret_sub;				\/\/ 函数返回释放栈空间大小$/;"	v
+func_sym_push	symbol.c	/^Symbol *func_sym_push(int v, Type *type)$/;"	f
+funcbody	grammar.c	/^void funcbody(Symbol *sym)$/;"	f
+function_calling_convention	grammar.c	/^void function_calling_convention (int *fc)$/;"	f
+gen_addr32	gencode.c	/^void gen_addr32(int r, Symbol *sym, int c)$/;"	f
+gen_addsp	gencode.c	/^void gen_addsp(int val)$/;"	f
+gen_byte	gencode.c	/^void gen_byte(char c)$/;"	f
+gen_call	gencode.c	/^void gen_call()$/;"	f
+gen_dword	gencode.c	/^void gen_dword(unsigned int c)$/;"	f
+gen_epilog	gencode.c	/^void gen_epilog()$/;"	f
+gen_invoke	gencode.c	/^void gen_invoke(int nb_args)$/;"	f
+gen_jcc	gencode.c	/^int gen_jcc(int t)$/;"	f
+gen_jmpbackword	gencode.c	/^void gen_jmpbackword(int a)$/;"	f
+gen_jmpforward	gencode.c	/^int gen_jmpforward(int t)$/;"	f
+gen_modrm	gencode.c	/^void gen_modrm(int mod,int reg_opcode, int r_m, Symbol *sym, int c)$/;"	f
+gen_op	gencode.c	/^void gen_op(int op)$/;"	f
+gen_opcode1	gencode.c	/^void gen_opcode1(char opcode)$/;"	f
+gen_opcode2	gencode.c	/^void gen_opcode2(char first, char second)$/;"	f
+gen_opi	gencode.c	/^void gen_opi(int op)$/;"	f
+gen_opi2	gencode.c	/^void gen_opi2(int opc,int op)$/;"	f
+gen_prefix	gencode.c	/^void gen_prefix(char opcode)$/;"	f
+gen_prolog	gencode.c	/^void gen_prolog(Type *func_type)$/;"	f
+get_dllname	outpe.c	/^char *get_dllname(char *libfile)$/;"	f
+get_entry_addr	outpe.c	/^void get_entry_addr(struct PEInfo *pe)$/;"	f
+get_file_ext	scc.c	/^char *get_file_ext(char *fname)$/;"	f
+get_lib_path	outpe.c	/^char *get_lib_path()$/;"	f
+get_line	outpe.c	/^char *get_line(char *line, int size, FILE *fp)$/;"	f
+get_tkstr	lex.c	/^char *get_tkstr(int v)$/;"	f
+get_token	lex.c	/^void get_token()$/;"	f
+getch	lex.c	/^void getch()$/;"	f
+global_sym_stack	symbol.c	/^Stack global_sym_stack,		\/\/ 全局符号栈$/;"	v
+handle_exception	error.c	/^void handle_exception(int stage,int level,char *fmt,va_list ap)$/;"	f
+hashtab	scc.h	/^	int *hashtab;				\/\/ 哈希表，只用于存储符号表$/;"	m	struct:Section
+iat_index	scc.h	/^    int iat_index;$/;"	m	struct:ImportSym
+iat_offs	scc.h	/^    DWORD iat_offs;$/;"	m	struct:PEInfo
+iat_size	scc.h	/^    DWORD iat_size;$/;"	m	struct:PEInfo
+if_statement	grammar.c	/^void if_statement(int *bsym, int *csym)$/;"	f
+imp_offs	scc.h	/^    DWORD imp_offs;$/;"	m	struct:PEInfo
+imp_size	scc.h	/^    DWORD imp_size;$/;"	m	struct:PEInfo
+imp_sym	scc.h	/^    IMAGE_IMPORT_BY_NAME imp_sym;$/;"	m	struct:ImportSym
+imp_syms	scc.h	/^	DynArray imp_syms;$/;"	m	struct:ImportInfo
+imphdr	scc.h	/^	IMAGE_IMPORT_DESCRIPTOR imphdr;$/;"	m	struct:ImportInfo
+imps	scc.h	/^	DynArray imps;$/;"	m	struct:PEInfo
+ind	gencode.c	/^int ind = 0;					\/\/ 指令在代码节位置$/;"	v
+index	scc.h	/^	char  index;				\/\/ 节序号$/;"	m	struct:Section
+indirection	operand.c	/^void indirection()$/;"	f
+init	scc.c	/^void init ()$/;"	f
+init_coff	outcoff.c	/^void init_coff()$/;"	f
+init_lex	lex.c	/^void init_lex()$/;"	f
+init_variable	gencode.c	/^void init_variable(Type *type, Section *sec, int c, int v)$/;"	f
+initializer	grammar.c	/^void initializer(Type *type, int c, Section *sec)$/;"	f
+int_type	symbol.c	/^	 int_type,				\/\/ int类型$/;"	v
+is_digit	lex.c	/^int is_digit(char c)$/;"	f
+is_nodigit	lex.c	/^int is_nodigit(char c)$/;"	f
+is_type_specifier	grammar.c	/^int is_type_specifier(int v)$/;"	f
+lib_path	outpe.c	/^char *lib_path;$/;"	v
+line_num	lex.c	/^int line_num;					\/\/ 行号$/;"	v
+link	scc.h	/^	struct Section *link;       \/\/ 关联的其它节$/;"	m	struct:Section	typeref:struct:Section::Section
+link_error	error.c	/^void link_error(char *fmt, ...)$/;"	f
+load	gencode.c	/^void load(int r, Operand *opd)$/;"	f
+load_1	gencode.c	/^int load_1(int rc, Operand *opd)$/;"	f
+load_2	gencode.c	/^void load_2(int rc1, int rc2)$/;"	f
+load_obj_file	outpe.c	/^int load_obj_file(char *fname)$/;"	f
+loc	gencode.c	/^int loc;						\/\/ 局部变量在栈中位置$/;"	v
+local_sym_stack	symbol.c	/^	  local_sym_stack;		\/\/ 局部符号栈$/;"	v
+main	Debug/HelloWorld.c	/^int  main()$/;"	f
+main	Release/HelloWorld.c	/^int  main()$/;"	f
+main	demo/HelloWorld.c	/^int main()$/;"	f
+main	scc.c	/^void main(int argc, char ** argv)$/;"	f
+makelist	gencode.c	/^int makelist(int s)$/;"	f
+mallocz	scc.c	/^void *mallocz(int size)$/;"	f
+mk_pointer	symbol.c	/^void mk_pointer(Type *t)$/;"	f
+multiplicative_expression	grammar.c	/^void multiplicative_expression()$/;"	f
+new_coffsym_section	outcoff.c	/^Section *new_coffsym_section(char *symtab_name, int Characteristics, char *strtab_name)$/;"	f
+next	scc.h	/^    struct Symbol *next;		\/\/ 关联的其它符号，结构体定义关联成员变量符号，函数定义关联参数符号$/;"	m	struct:Symbol	typeref:struct:Symbol::Symbol
+next	scc.h	/^    struct TkWord *next;			\/\/ 指向哈希冲突的其它单词$/;"	m	struct:TkWord	typeref:struct:TkWord::TkWord
+nsec_image	outcoff.c	/^int nsec_image;				\/\/ 映像文件节个数$/;"	v
+nt_header	outpe.c	/^IMAGE_NT_HEADERS32 nt_header = {$/;"	v
+offset	scc.h	/^    DWORD offset;	\/\/ 需要进行重定位的代码或数据的地址$/;"	m	struct:CoffReloc
+operand_assign	operand.c	/^void operand_assign(Operand *opd, int t, int r, int value)$/;"	f
+operand_pop	operand.c	/^void operand_pop()$/;"	f
+operand_push	operand.c	/^void operand_push(Type *type, int r, int value)$/;"	f
+operand_swap	operand.c	/^void operand_swap()$/;"	f
+opstack	gencode.c	/^Operand opstack[OPSTACK_SIZE];  \/\/ 操作数栈$/;"	v
+optop	gencode.c	/^Operand *optop;					\/\/ 操作数栈栈顶$/;"	v
+outfile	scc.c	/^char *outfile;					\/\/ 输出文件名$/;"	v
+output_type	scc.c	/^int output_type;				\/\/ 输出文件类型$/;"	v
+parameter_type_list	grammar.c	/^void parameter_type_list(Type *type,int func_call)$/;"	f
+parse_comment	lex.c	/^void parse_comment()$/;"	f
+parse_identifier	lex.c	/^void parse_identifier()$/;"	f
+parse_num	lex.c	/^void parse_num()$/;"	f
+parse_string	lex.c	/^void parse_string(char sep)$/;"	f
+pe_add_import	outpe.c	/^struct ImportSym *pe_add_import(struct PEInfo *pe, int sym_index, char *name)$/;"	f
+pe_assign_addresses	outpe.c	/^int pe_assign_addresses(struct PEInfo *pe)$/;"	f
+pe_build_imports	outpe.c	/^void pe_build_imports(struct PEInfo *pe)$/;"	f
+pe_file_align	outpe.c	/^DWORD pe_file_align(DWORD n)$/;"	f
+pe_find_import	outpe.c	/^int pe_find_import(char *symbol)$/;"	f
+pe_load_lib_file	outpe.c	/^int pe_load_lib_file(char *name)$/;"	f
+pe_output_file	outpe.c	/^int pe_output_file(char *filename)$/;"	f
+pe_set_datadir	outpe.c	/^void pe_set_datadir(int dir, DWORD addr, DWORD size)$/;"	f
+pe_virtual_align	outpe.c	/^DWORD pe_virtual_align(DWORD n)$/;"	f
+pe_write	outpe.c	/^int pe_write(struct PEInfo *pe)$/;"	f
+pointed_size	gencode.c	/^int pointed_size(Type *t)$/;"	f
+pointed_type	gencode.c	/^Type *pointed_type(Type *t)$/;"	f
+postfix_expression	grammar.c	/^void postfix_expression()$/;"	f
+preprocess	lex.c	/^void preprocess()$/;"	f
+prev_tok	scc.h	/^    struct Symbol *prev_tok;	\/\/ 指向前一定义的同名符号$/;"	m	struct:Symbol	typeref:struct:Symbol::Symbol
+primary_expression	grammar.c	/^void primary_expression()$/;"	f
+print_tab	grammar.c	/^void print_tab(int n)$/;"	f
+process_command	scc.c	/^int process_command(int argc, char **argv)$/;"	f
+put_import_str	outpe.c	/^int put_import_str(Section *sec, char *sym)$/;"	f
+r	scc.h	/^    int r;						\/\/ 符号关联的寄存器$/;"	m	struct:Symbol
+r	scc.h	/^    unsigned short r;       \/\/ 寄存器或存储类型$/;"	m	struct:Operand
+ref	scc.h	/^    struct Symbol *ref;$/;"	m	struct:Type	typeref:struct:Type::Symbol
+relational_expression	grammar.c	/^void relational_expression()$/;"	f
+relocate_syms	outpe.c	/^void relocate_syms()$/;"	f
+resolve_coffsyms	outpe.c	/^int resolve_coffsyms(struct PEInfo *pe)$/;"	f
+return_statement	grammar.c	/^void return_statement()$/;"	f
+rsym	gencode.c	/^int rsym;						\/\/ 记录return指令位置$/;"	v
+scc_version	scc.c	/^float scc_version = 1.00;		\/\/ SCC编译器版本号$/;"	v
+sec_bss	outcoff.c	/^		*sec_bss,			\/\/ 未初始化数据节$/;"	v
+sec_data	outcoff.c	/^		*sec_data,			\/\/ 数据节$/;"	v
+sec_dynsymtab	outcoff.c	/^		*sec_dynsymtab;		\/\/ 链接库符号节$/;"	v
+sec_idata	outcoff.c	/^		*sec_idata,			\/\/ 导入表节$/;"	v
+sec_rdata	outcoff.c	/^		*sec_rdata,			\/\/ 只读数据节$/;"	v
+sec_rel	outcoff.c	/^		*sec_rel,			\/\/ 重定位信息节$/;"	v
+sec_size	scc.h	/^    int   sec_size;$/;"	m	struct:PEInfo
+sec_sym_put	symbol.c	/^Symbol *sec_sym_put(char *sec,int c)$/;"	f
+sec_symtab	outcoff.c	/^		*sec_symtab,		\/\/ 符号表节	$/;"	v
+sec_text	outcoff.c	/^Section *sec_text,			\/\/ 代码节$/;"	v
+secs	scc.h	/^	Section **secs;$/;"	m	struct:PEInfo
+section	scc.h	/^	BYTE  section;  \/\/ 此处讲一下为什么对COFF重定位结构进行修改记录Section信息*\/$/;"	m	struct:CoffReloc
+section_new	outcoff.c	/^Section * section_new(char *name, int Characteristics)$/;"	f
+section_ptr_add	outcoff.c	/^void *section_ptr_add(Section *sec, int increment)$/;"	f
+section_realloc	outcoff.c	/^void section_realloc(Section *sec, int new_size)$/;"	f
+sections	outcoff.c	/^DynArray sections;			\/\/ 节数组$/;"	v
+sh	scc.h	/^	IMAGE_SECTION_HEADER sh;    \/\/ 节头$/;"	m	struct:Section
+sizeof_expression	grammar.c	/^void sizeof_expression()$/;"	f
+skip	error.c	/^void skip(int v)$/;"	f
+skip_white_space	lex.c	/^void skip_white_space()$/;"	f
+sourcestr	lex.c	/^DynString sourcestr;			\/\/ 单词源码字符串$/;"	v
+spelling	scc.h	/^    char *spelling;					\/\/ 单词字符串 $/;"	m	struct:TkWord
+spill_reg	gencode.c	/^void spill_reg(int r)$/;"	f
+spill_regs	gencode.c	/^void spill_regs()$/;"	f
+src_files	scc.c	/^DynArray src_files;				\/\/ 源文件数组$/;"	v
+stack_destroy	stack.c	/^void stack_destroy(Stack *stack)$/;"	f
+stack_get_top	stack.c	/^void* stack_get_top(Stack *stack)$/;"	f
+stack_init	stack.c	/^void stack_init(Stack *stack,int initsize)$/;"	f
+stack_is_empty	stack.c	/^int stack_is_empty(Stack *stack)$/;"	f
+stack_pop	stack.c	/^void stack_pop(Stack *stack)$/;"	f
+stack_push	stack.c	/^void* stack_push(Stack *stack, void *element, int size)$/;"	f
+stacksize	scc.h	/^	int stacksize;	\/\/ 栈当前可使用的最大容量,以元素为单位	$/;"	m	struct:Stack
+statement	grammar.c	/^void statement(int *bsym, int *csym)$/;"	f
+store	gencode.c	/^void store(int r, Operand *opd)$/;"	f
+store0_1	gencode.c	/^void store0_1() $/;"	f
+struct_declaration	grammar.c	/^void struct_declaration(int *maxalign,int *offset,Symbol ***ps)$/;"	f
+struct_declaration_list	grammar.c	/^void struct_declaration_list(Type *type)$/;"	f
+struct_member_alignment	grammar.c	/^void struct_member_alignment(int *force_align)$/;"	f
+struct_search	symbol.c	/^Symbol *struct_search(int v)$/;"	f
+struct_specifier	grammar.c	/^void struct_specifier(Type *type)$/;"	f
+subsystem	outpe.c	/^short subsystem;$/;"	v
+sym	scc.h	/^    struct Symbol *sym;     \/\/ 符号，适用于(SC_SYM | SC_GLOBAL)$/;"	m	struct:Operand	typeref:struct:Operand::Symbol
+sym_direct_push	symbol.c	/^Symbol *sym_direct_push(Stack *ss, int v, Type *type, int c)$/;"	f
+sym_identifier	scc.h	/^    struct Symbol *sym_identifier;	\/\/ 指向单词所表示的标识符$/;"	m	struct:TkWord	typeref:struct:TkWord::Symbol
+sym_pop	symbol.c	/^void sym_pop(Stack *ptop, Symbol *b)$/;"	f
+sym_push	symbol.c	/^Symbol *sym_push(int v, Type *type, int r, int c)$/;"	f
+sym_search	symbol.c	/^Symbol *sym_search(int v)$/;"	f
+sym_sec_rdata	gencode.c	/^Symbol *sym_sec_rdata;			\/\/ 只读节符号$/;"	v
+sym_struct	scc.h	/^    struct Symbol *sym_struct;		\/\/ 指向单词所表示的结构定义$/;"	m	struct:TkWord	typeref:struct:TkWord::Symbol
+syntax_indent	grammar.c	/^void syntax_indent()$/;"	f
+syntax_level	grammar.c	/^int syntax_level;$/;"	v
+syntax_state	grammar.c	/^int syntax_state;$/;"	v
+t	scc.h	/^    int t;$/;"	m	struct:Type
+test_lex	lex.c	/^void test_lex()$/;"	f
+thk_offset	scc.h	/^    int thk_offset;$/;"	m	struct:ImportSym
+thunk	scc.h	/^    Section *thunk;$/;"	m	struct:PEInfo
+tk_hashtable	lex.c	/^TkWord* tk_hashtable[MAXKEY];	\/\/ 单词哈希表$/;"	v
+tkcode	scc.h	/^    int  tkcode;					\/\/ 单词编码 $/;"	m	struct:TkWord
+tkstr	lex.c	/^DynString tkstr;				\/\/ 单词字符串$/;"	v
+tktable	lex.c	/^DynArray tktable;				\/\/ 单词表中放置标识符，包括变量名,函数名,结构定义名$/;"	v
+tkvalue	lex.c	/^int tkvalue;					\/\/ 单词值(单词为整型常量)$/;"	v
+tkword_direct_insert	lex.c	/^TkWord* tkword_direct_insert(TkWord* tp)$/;"	f
+tkword_find	lex.c	/^TkWord* tkword_find(char *p, int keyno)$/;"	f
+tkword_insert	lex.c	/^TkWord* tkword_insert(char *p)$/;"	f
+token	lex.c	/^int token;						\/\/ 单词编码$/;"	v
+top	scc.h	/^	void **top;		\/\/ 栈顶指针$/;"	m	struct:Stack
+translation_unit	grammar.c	/^void translation_unit()$/;"	f
+type	scc.h	/^    BYTE  type;    $/;"	m	struct:CoffReloc
+type	scc.h	/^    Type type;					\/\/ 符号类型$/;"	m	struct:Symbol
+type	scc.h	/^    Type type;			    \/\/ 数据类型$/;"	m	struct:Operand
+type_size	symbol.c	/^int type_size(Type *t, int *a)$/;"	f
+type_specifier	grammar.c	/^int type_specifier(Type *type)$/;"	f
+unary_expression	grammar.c	/^void unary_expression()$/;"	f
+v	scc.h	/^    int v;						\/\/ 符号的单词编码$/;"	m	struct:Symbol
+value	scc.h	/^    int value;              \/\/ 常量值，适用于SC_GLOBAL$/;"	m	struct:Operand
+var_sym_put	symbol.c	/^Symbol *var_sym_put(Type *type, int r, int v, int addr)$/;"	f
+warning	error.c	/^void warning(char *fmt, ...)$/;"	f
+write_obj	outcoff.c	/^void write_obj(char *name)$/;"	f
